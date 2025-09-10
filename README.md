@@ -37,3 +37,33 @@ Gigi is an AI-powered personal growth coach that helps users achieve their goals
 ---
 
 ## 📂 Project Structure
+
+├── main.py # Main AI agent script
+├── gigi_memory/ # ChromaDB persistence (user profiles, embeddings)
+└── README.md # Project documentation
+
+
+## ▶️ Example Usage
+```bash
+python main.py
+
+First Run:
+
+"I have a CS exam in 6 weeks and want to lose 4kg. I'm vegetarian and have 1 hour a day."
+
+Weekly Update:
+
+gigi_coach(
+    user_id="alex_2025",
+    user_request="",  # ignored
+    weekly_update="I'm doing well with study but skipping workouts on Fridays."
+)
+
+🎯 Future Enhancements
+
+Streamlit web interface for user interaction.
+
+Support for multi-user profiles with authentication.
+
+Integration with wearables (e.g., fitness trackers, sleep apps).
+

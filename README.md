@@ -166,7 +166,3 @@ Without the key, decrypted user input cannot be accessed.
 * 📱 Integration with wearables & health APIs
 * 📈 Analytics dashboard for progress tracking
 
-  
-
-Do you want me to also generate the **requirements.txt** file for you (based on the imports in your code) so your repo is immediately runnable?
-```

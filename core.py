@@ -35,7 +35,6 @@ from chromadb.utils import embedding_functions
 import google.generativeai as genai
 from pydantic import BaseModel, ValidationError, Field
 from cryptography.fernet import Fernet
-import redis
 from sqlalchemy import create_engine, Column, String, DateTime, Text, JSON, Integer
 from sqlalchemy.orm import declarative_base, sessionmaker
 
